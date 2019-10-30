@@ -1,0 +1,9 @@
+
+
+User-agent: *
+
+Disallow: /admin/
+Disallow: /cent/
+Allow: /static/
+
+Sitemap: https://lobachov.com.ua/sitemap.xml
