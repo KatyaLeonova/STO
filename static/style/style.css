@@ -9,7 +9,6 @@ html{
 }
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
 }
 *,
 *:before
@@ -222,7 +221,6 @@ a{
    NUMBER AND " ORDER CALL " BUTTON 
    НОМЕР И КНОПКА "ЗАКАЗАТЬ ЗВОНОК"
 */
-
 .header-inner-form{ 
     margin: auto 0;
     border-top:4px #e8b13c solid;
@@ -294,7 +292,9 @@ a{
 .content-page{
     font-size: 20px;
 }
-
+.content-text{
+    margin: 0 10px;
+}
 .block-row{
     text-align: center;
     line-height: 40px;  
@@ -460,6 +460,13 @@ a{
     text-transform: uppercase;
     font-size: 24px;
     text-align: center;
+}
+
+/*
+    ОТЗЫВЫ
+*/
+#comments{
+    margin: 10px;
 }
 
 /*

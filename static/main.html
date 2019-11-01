@@ -39,7 +39,6 @@
 
 
         <div class="container" >
-
             <div class="block-information">
                 <span><i class="fa fa-map-marker"></i>г. Запорожье (правый берег)
                 </span>
@@ -85,7 +84,7 @@
          
           <div class="block-row">
               <div class="box-header">Почему мы?</div>
-              <p>Мы являемся одними из ведущих авторемонтных мастерских, обслуживающих клиентов в Запорожье.<br> 
+              <p class="content-text">Мы являемся одними из ведущих авторемонтных мастерских, обслуживающих клиентов в Запорожье.<br> 
                Главным преимуществом СТО <q>Лобачев</q> является наличие самого обширного спектора услуг в городе, <br>что позволяет нашим клиентам устранить любую проблему в автомобиле.<br> Все предоставляемые нами услуги выполняются высококвалифицированными механиками.</p>
           </div>
           
@@ -186,7 +185,7 @@
             <div class="block-row">
                  <div class="box-header">Подбор запчастей по VIN-коду</div>
                  <div class="container">  
-                    <p>
+                    <p class="content-text">
                         Наш автосервис осуществляет подбор запчастей по VIN-коду вашего автомобиля.<br>
                     
                         VIN - уникальный код транспортного средства, всегда 17 символов. Указан в техническом паспорте автомобиля.<br>
@@ -233,39 +232,36 @@
             
             <div class="block-row" id="comments">
                 <div class="box-header">Отзывы</div>
-                
-                <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://https-lobachov-com-ua.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
+                <div class="container">
+                    <div id="disqus_thread"></div>
+                        <script>
+                            /**
+                            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                            /*
+                            var disqus_config = function () {
+                            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
+                            */
+                            (function() { // DON'T EDIT BELOW THIS LINE
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://https-lobachov-com-ua.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>    
+                </div>
                 
                 <!--
                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="800" data-numposts="5" data-colorscheme="dark"></div> 
                -->  
-            </div>
-            
-            
+            </div>    
             
     </div>  <!--/content-page-->
 
-    
+        
          <wrapper>
          <button class="no" type="button" onclick="openForm()" style="background-color: rgba(0,0,0,0);border: none;">
 	        <div class="dws">
