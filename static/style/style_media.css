@@ -438,6 +438,11 @@
     .fotorama__wrap{
         margin-top: -50px; 
     }
+    
+    .table-prices caption{
+        font-size: 18px;
+    }
+    
 }
 
 

@@ -144,12 +144,19 @@ function openPrice_chassis(){
 }; };  
 
 function openPrice_tire_fitting(){
-     if  ($("#tire_fitting").css("display") == "table"){
-        $("#tire_fitting").css("display","none");
+     if  ($("#tire_fitting_1").css("display") == "table"){
+        $("#tire_fitting_1").css("display","none");
     }
      else{
-        $("#tire_fitting").css("display","table");  
-}; };  
+        $("#tire_fitting_1").css("display","table");  
+};
+    if  ($("#tire_fitting_2").css("display") == "table"){
+            $("#tire_fitting_2").css("display","none");
+        }
+         else{
+            $("#tire_fitting_2").css("display","table");  
+    };
+};  
 
 
 
