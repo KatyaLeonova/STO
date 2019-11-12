@@ -9,7 +9,7 @@ function orderCall() {
         "name":name,
         "phone":phone
     }));
-
+    
     Http.onreadystatechange = (e) => {
         if(Http.readyState == 4 && Http.status == 200) {
             let res = JSON.parse(Http.responseText);
