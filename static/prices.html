@@ -9,8 +9,7 @@
      <link rel="stylesheet" href="style/style_media.css">
          
     <link href="style/fotorama.css" rel="stylesheet">  <!-- Fotorama -->
-    
-    <link rel="icon" type="image/png " href="images/favicon.png">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     
     <!--Font-family-->
@@ -109,7 +108,7 @@
               <div class="box-header">Цены</div>
               <div class="content-row">
                   <p>
-                      Ниже указана минимальная стоимость каждой услуги. Чтобы узнать точную цену услуги для конкретного автомобиля, позвоните по нашим номерам и наш менеджер ответит на интересующие вас вопросы.
+                      Ниже указана <strong><big>минимальная стоимость</big></strong> каждой услуги. Чтобы узнать точную цену услуги для конкретного автомобиля, позвоните по нашим номерам и наш менеджер ответит на интересующие вас вопросы.
                   </p>
                     
                   <div class="prices-content">
@@ -138,11 +137,11 @@
                           </tr>
                           <tr>
                               <td>Замена высоковольтных проводов</td>
-                              <td>160</td>
-                          </tr> 
+                              <td>120</td>
+                          </tr>
                           <tr>
-                              <td>Замена высоковольтных проводов</td>
-                              <td>160</td>
+                              <td>Замена датчиков двигателя</td>
+                              <td>100</td>
                           </tr>
                           <tr>
                               <td>Замена инжекторов (форсунок)</td>
@@ -171,7 +170,7 @@
                               
                           <tr>
                               <td>Замена свечей зажигания в рядном двигателе</td>
-                              <td>160</td> 
+                              <td>120</td> 
                           </tr>
                           <tr>
                               <td>Замена свечей накала</td>
@@ -277,7 +276,7 @@
                           </tr>
                           <tr>
                               <td>Замена воздушного фильтра</td>
-                              <td>40</td>                            
+                              <td>50</td>                            
                           </tr>
                           <tr>
                               <td>Замена гофры глушителя</td>
@@ -341,7 +340,7 @@
                           </tr>
                           <tr>
                               <td>Замена термостата</td>
-                              <td>100</td>                            
+                              <td>150</td>                            
                           </tr>
                           <tr>
                               <td>Замена топливного насоса</td>
@@ -357,7 +356,7 @@
                           </tr>
                           <tr>
                               <td>Проверка компрессии в цилиндрах</td>
-                              <td>500</td>                            
+                              <td>240</td>                            
                           </tr>
                           <tr>
                               <td>Проверка плотности цилиндров</td>
@@ -365,7 +364,7 @@
                           </tr>
                           <tr>
                               <td>Снятие / установка двигателя</td>
-                              <td>6000</td>                            
+                              <td>4000</td>                            
                           </tr>
                           <tr>
                               <td>Снятие и установка автоматической КПП</td>
@@ -377,7 +376,7 @@
                           </tr>
                           <tr>
                               <td>Снятие и установка корзины диска сцепления</td>
-                              <td>2600</td>                            
+                              <td>1800</td>                            
                           </tr>
                           <tr>
                               <td>Снятие и установка кулисы КПП</td>
@@ -440,6 +439,7 @@
                           </tr>
                       </table>    
                       </div>
+                      
                       
                       <div class="prices-content-section">
                          <button type="button" onclick="openPrice_car_wash()"><i class="fas fa-chevron-down"></i> Мойка</button>
@@ -532,6 +532,7 @@
                       </table>
                     </div>
                         
+                        
                       <div class="prices-content-section">
                          <button type="button" onclick="openPrice_wheel_alignment()"><i class="fas fa-chevron-down"></i> Развал схождение + люфт детектор</button>
                          <table class="table-prices" id="wheel_alignment">
@@ -578,6 +579,7 @@
                           </tr>
                       </table>
                       </div>
+                      
                       
                       <div class="prices-content-section">
                          <button type="button" onclick="openPrice_steering_rack()"><i class="fas fa-chevron-down"></i> Рулевая рейка, гур</button>
@@ -629,6 +631,7 @@
                           </tr>
                       </table>
                       </div>
+                      
                       
                       <div class="prices-content-section">
                          <button type="button" onclick="openPrice_oils()"><i class="fas fa-chevron-down"></i> Тех. жидкости, масла</button>
@@ -692,6 +695,7 @@
                           </tr>
                       </table>
                       </div>
+                      
                       
                       <div class="prices-content-section">
                          <button type="button" onclick="openPrice_brake_system()"><i class="fas fa-chevron-down"></i> Тормозная система</button>
@@ -819,6 +823,7 @@
                           </tr>
                       </table>
                       </div>
+                      
                       
                       <div class="prices-content-section">
                          <button type="button" onclick="openPrice_chassis()"><i class="fas fa-chevron-down"></i> Ходовая</button>
@@ -1019,6 +1024,7 @@
                       </table>
                       </div>
                       
+                      
                       <div class="prices-content-section">
                          <button type="button" onclick="openPrice_tire_fitting()"><i class="fas fa-chevron-down"></i> Шиномонтаж</button>
                         <div class="table-content">
@@ -1128,6 +1134,25 @@
                               <td>225</td>
                               <td>900</td>
                           </tr>                         
+                      </table>
+                      
+                      <table class="table-prices" id="tire_fitting_3">
+                          <caption>Сезонное хранение шин</caption>
+                          <tr>
+                              <th>Диаметр</th>
+                              <th>Шины (4 шт.)</th>
+                              <th>Шины с дисками (4 шт.)</th>
+                          </tr>
+                          <tr>
+                              <td>13-16</td>
+                              <td>100 грн/месяц</td>
+                              <td>120 грн/месяц</td>
+                          </tr>
+                          <tr>
+                              <td>17-22</td>
+                              <td>120 грн/месяц</td>
+                              <td>140 грн/месяц</td>
+                          </tr>
                       </table>
                       </div>
                       </div>

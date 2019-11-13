@@ -149,13 +149,19 @@ function openPrice_tire_fitting(){
     }
      else{
         $("#tire_fitting_1").css("display","table");  
-};
+     };
     if  ($("#tire_fitting_2").css("display") == "table"){
             $("#tire_fitting_2").css("display","none");
         }
          else{
             $("#tire_fitting_2").css("display","table");  
     };
+    if  ($("#tire_fitting_3").css("display") == "table"){
+        $("#tire_fitting_3").css("display","none");
+    }
+     else{
+        $("#tire_fitting_3").css("display","table");  
+     };
 };  
 
 
