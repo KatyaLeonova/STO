@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
      <link rel="stylesheet" href="style/style_media.css">
+     
+     <link href="style/fotorama.css" rel="stylesheet">  <!-- Fotorama -->
+     
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
     
@@ -125,10 +128,17 @@
                          <li><span>Покраска кузова в желаемый цвет, включая нестандартные цветовые решения.</span></li>
                      </ul>
                  
-                 <img src="images/servises_body_repair.jpg" alt="Кузовные работы ( До / После )" title="До / После">
-
+                 <div id="image-services">
+                    <div class="services-photo" onclick="Photo()">
+                        <img src="images/body_repair_1.jpg" alt="Кузовные работы">
+                    </div>
+                     <div class="services-photo" onclick="Photo()">
+                        <img src="images/body_repair_2.jpg" alt="Кузовные работы">
+                    </div>
+                 </div> 
+                
               </div>
-              
+
         </div>
     </div>  <!--/content-page-->
   
@@ -183,7 +193,7 @@
 
          <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
          <script src="js/script.js"></script>
-         
+        <script src="js/fotorama.js"></script>
          <script type="text/javascript">
             document.getElementById('scheduleButton').addEventListener('click', function() {
             fbq('track', 'SubmitApplication');

@@ -102,6 +102,9 @@
           padding-left: 15px;
           padding-right:15px;
        }
+    .footer{
+        margin-top: 40px;
+    }
     .footer-col p{
         font-size: 15px;
     }
@@ -217,11 +220,12 @@
     .repair-record-item{
         flex-direction: column;
         text-align: center;  
-
-
     }
     .repair-record-item button{
         margin: 10px auto 20px;
+    }
+    .image-services-big{
+        width: 90%;
     }
 }
 

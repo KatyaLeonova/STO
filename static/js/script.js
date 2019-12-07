@@ -166,5 +166,15 @@ function openPrice_tire_fitting(){
 
 
 
+$("#image-services").on("click", ".services-photo img", function(){
+        var src = $(this).attr('src');
+        var alt = $(this).attr('alt');
+
+        $("body").append("<div id='image-services-big'>"+"<img src='"+src+"' alt='"+alt+"' class='image-services-big' />"+"</div>");
+        $("#image-services-big").click(function(){
+        $("#image-services-big").remove(); 
+    });
+
+});
 
 
