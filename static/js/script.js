@@ -162,9 +162,7 @@ function openPrice_tire_fitting(){
      else{
         $("#tire_fitting_3").css("display","table");  
      };
-};  
-
-
+};
 
 $("#image-services").on("click", ".services-photo img", function(){
         var src = $(this).attr('src');
@@ -176,5 +174,3 @@ $("#image-services").on("click", ".services-photo img", function(){
     });
 
 });
-
-
