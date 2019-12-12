@@ -661,12 +661,13 @@ a{
     transition: 0.2ss;
 }
 
-#image-services{
+.image-services{
     display: flex;
     justify-content: space-around;
+    /*flex-wrap: wrap;*/
 }
 .services-photo{
-    width: 90%; 
+    width:90%;
     margin:0 10px;
 }
 .services-photo:hover{
@@ -704,7 +705,7 @@ a{
 */
 .fotorama__wrap{
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .fotorama img{
     text-align: center;

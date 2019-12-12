@@ -164,7 +164,7 @@ function openPrice_tire_fitting(){
      };
 };
 
-$("#image-services").on("click", ".services-photo img", function(){
+$(".image-services").on("click", ".services-photo img", function(){
         var src = $(this).attr('src');
         var alt = $(this).attr('alt');
 
